@@ -77,3 +77,18 @@ exports.getUser = (req, res, next) => {
     next(err);
   }
 };
+
+// 获取历史消费记录
+exports.getHistoryConsumption = async (req, res, next) => {
+  try {
+    const user = req.user;
+    const historyConsumption = await HistoryConsumption.find({ user: user.id });
+    res.status(200).json({
+      code: 200,
+      msg: '获取历史消费记录成功',
+      data: historyConsumption
+    });
+  } catch (err) {
+    next(err);
+  }
+};
