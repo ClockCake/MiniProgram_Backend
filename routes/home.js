@@ -8,42 +8,42 @@ router.get('/brand', (req, res, next) => {
         {
           id: 1,
           name: 'Apple',
-          image: `${req.protocol}://${req.get('host')}/static/images/apple.png`
+          image: `${req.protocol}://${req.get('host')}/static/images/apple.svg`
         },
         {
           id: 2,
           name: '华为',
-          image: `${req.protocol}://${req.get('host')}/static/images/huawei.png`
+          image: `${req.protocol}://${req.get('host')}/static/images/huawei.svg`
         },
         {
             id: 3,
             name: '三星',
-            image: `${req.protocol}://${req.get('host')}/static/images/samsung.png`
+            image: `${req.protocol}://${req.get('host')}/static/images/samsung.svg`
         },
         {
             id: 4,
             name: '小米',
-            image: `${req.protocol}://${req.get('host')}/static/images/xiaomi.png`
+            image: `${req.protocol}://${req.get('host')}/static/images/xiaomi.svg`
         },
         {
             id: 5,
             name: 'OPPO',
-            image: `${req.protocol}://${req.get('host')}/static/images/oppo.png`
+            image: `${req.protocol}://${req.get('host')}/static/images/oppo.svg`
         },
         {
             id: 6,
             name: 'VIVO',
-            image: `${req.protocol}://${req.get('host')}/static/images/vivo.png`
+            image: `${req.protocol}://${req.get('host')}/static/images/vivo.svg`
         },
         {
             id: 7,
             name: '一加',
-            image: `${req.protocol}://${req.get('host')}/static/images/oneplus.png`
+            image: `${req.protocol}://${req.get('host')}/static/images/oneplus.svg`
         },
         {
             id: 8,
             name: '魅族',
-            image: `${req.protocol}://${req.get('host')}/static/images/meizu.png`
+            image: `${req.protocol}://${req.get('host')}/static/images/meizu.svg`
         },
         
         
